@@ -10,8 +10,8 @@ public class LogInLibrary extends BaseTest{
 	public void facebookLogIn() throws Exception {
 		
 		LogInPage logIn = PageFactory.initElements(dr, LogInPage.class);
-		logIn.EmailTxtBox.sendKeys("mayuripatil1505@gmail.com");
-		logIn.PassTxtBox.sendKeys("sumitchougule");
+		logIn.EmailTxtBox.sendKeys("mayuripatil");//Enter your Username
+		logIn.PassTxtBox.sendKeys("password");//Enter Password
 		logIn.LogInBtn.click();
 		Thread.sleep(5000);
 		
